@@ -13,6 +13,9 @@ char *shiftString(char *p, int choice);
 
 int main(int argc, char *argv[])
 {
+	int choice;
+	char name[256];
+	
 	srand(time(NULL));
 	printf("Please enter your name: "); //Input any number of array inputs
 	scanf("%s",name);
